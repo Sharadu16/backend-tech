@@ -1,0 +1,2 @@
+this is all about how to install package.json file. and how to mange dependencies.
+
