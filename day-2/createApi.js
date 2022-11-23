@@ -1,9 +1,10 @@
-
+const data = require("./data");
 const http = require("http");
 
 http.createServer((req,res)=> {
 
-    res.write("hii this is sharad tech house");
+    res.writeHead(200,{"Content-Type" : "application\json"})
+    res.write(JSON.stringify(data));
     res.end();
 
 }).listen(8080);
